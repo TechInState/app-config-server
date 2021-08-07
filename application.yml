@@ -7,4 +7,9 @@ eureka:
   instance:
     hostname: localhost
     
-app.provider.url=http://localhost:9090/placeorder/Book
+app:
+  provider:
+    url: http://localhost:9090/placeorder/Book
+
+user:
+  role: Developer
